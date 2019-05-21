@@ -4,7 +4,10 @@
   "description": "Node 3 - Afternoon",
   "main": "server/index.js",
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.18.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.0",
+    "express-session": "^1.16.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-icons": "^2.2.5",
@@ -32,5 +35,7 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/devlemire/swag-node-shop/issues"
-  }
+  },
+  "proxy":"http://localhost:3001",
+  "main":"server/index.js"
 }
